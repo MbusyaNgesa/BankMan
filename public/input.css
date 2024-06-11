@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.balance {
+  width: 90%;
+}
+.image {
+  border-radius: 50%;
+}

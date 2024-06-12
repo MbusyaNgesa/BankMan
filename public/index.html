@@ -6,63 +6,63 @@
     <link rel="stylesheet" href="main.css" />
     <title>Bank-ai2</title>
   </head>
-  <body class="pt-20">
-    <section>
-      <div
-        class="relative max-w-sm rounded-xl overflow-hidden text-white shadow-lg p-80 mb-20 mx-auto bg-black"
-      >
-        <h3 class="absolute top-2 left-6 pt-5 text-left font-bold text-2xl">
-          Bank-ai
-        </h3>
-        <div class="">
-          <img
-            src="/img/cash.png
+  <body class="pt-20 min-h-screen bg-gray-100 flex items-center justify-center">
+    <section
+      class="relative max-w-sm rounded-xl overflow-hidden text-white shadow-lg p-80 mb-20 mx-auto bg-black"
+    >
+      <h3 class="absolute top-2 left-6 pt-5 text-left font-bold text-2xl">
+        Bank-ai
+      </h3>
+      <div class="">
+        <img
+          src="/img/cash.png
           "
-            alt="invalid"
-            class="image absolute top-2 p-1 left-6 mt-14 space-x-4 bg-yellow-200"
-          />
-          <h3 class="absolute top-3 left-6 mt-24">Cash</h3>
-          <img
-            src="/img/receive.png"
-            alt="invalid"
-            class="image absolute top-2 left-6 p-1 mt-14 ml-20 bg-green-200"
-          />
-          <h3 class="absolute top-3 left-6 mt-24 ml-20">Transactions</h3>
+          alt="invalid"
+          class="image absolute top-2 p-1 left-6 mt-14 space-x-4 bg-yellow-200"
+        />
+        <h3 class="absolute top-3 left-6 mt-24">Cash</h3>
+        <img
+          src="/img/receive.png"
+          alt="invalid"
+          class="image absolute top-2 left-6 p-1 mt-14 ml-20 bg-green-200"
+        />
+        <h3 class="absolute top-3 left-6 mt-24 ml-20">Transactions</h3>
+      </div>
+      <div
+        class="balance container absolute top-44 left-4 p-8 right-10 bg-sky-600 rounded-lg"
+      >
+        <h3 class="text-left mt-0">Account Balance</h3>
+        <h1 class="text-5xl mt-3 ml-2">250.00</h1>
+        <input
+          type="text"
+          class="p-2 mt-5 rounded-lg bg-black"
+          placeholder="Amount"
+        />
+        <div class="mt-6 top-0 left-8">
+          <button class="bg-white text-black p-2 rounded-lg">Deposit</button>
+          <button class="bg-green-700 p-2 rounded-lg">Withdraw</button>
         </div>
-        <div
-          class="balance container absolute top-44 left-4 p-8 right-10 bg-sky-600 rounded-lg"
-        >
-          <h3 class="text-left mt-0">Account Balance</h3>
-          <h1 class="text-5xl mt-3 ml-2">250.00</h1>
-          <input
-            type="text"
-            class="p-2 mt-5 rounded-lg bg-black"
-            placeholder="Amount"
-          />
-          <div class="mt-6 top-0 left-8">
-            <button class="bg-white text-black p-2 rounded-lg">Deposit</button>
-            <button class="bg-green-700 p-2 rounded-lg">Withdraw</button>
-          </div>
-        </div>
-        <!--Table-->
-        <div class="absolute bottom-28 left-5 ml-8 text-white">
-          <table class="p-4 mt-5">
-            <thead class="text-start">
-              <tr>
-                <th class="pl-4">Date</th>
-                <th class="pl-4">Transaction Code</th>
-                <th class="pl-4">Amount</th>
-                <th class="pl-4">Type</th>
-              </tr>
-            </thead>
-            <tbody class="text-center">
-              <td>12 June</td>
-              <td>SFC29AVTEY</td>
-              <td>1200</td>
-              <td>Ksh</td>
-            </tbody>
-          </table>
-        </div>
+      </div>
+      <!--Table-->
+      <div
+        class="absolute bottom-16 left-5 p-4 mt-5 rounded-lg shadow-lg bg-white text-black"
+      >
+        <table class="w-full">
+          <thead class="text-start">
+            <tr>
+              <th class="pl-4">Date</th>
+              <th class="pl-4">Transaction Code</th>
+              <th class="pl-4">Amount</th>
+              <th class="pl-4">Type</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <td>12 June</td>
+            <td>SFC29AVTEY</td>
+            <td>1200</td>
+            <td>Ksh</td>
+          </tbody>
+        </table>
       </div>
     </section>
   </body>
